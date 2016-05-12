@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Social Justice Paladin",
+  "version": "1.0",
+  "description": "Making the internet a nicer place one devil's advocate at a time.",
+  "content_scripts": 
+	[
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+	]
+}
